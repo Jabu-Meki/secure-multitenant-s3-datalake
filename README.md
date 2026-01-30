@@ -14,7 +14,7 @@ The architecture is built from first principles, focusing on how S3 enforces acc
 
 ## Problem Statement
 
-Organizations need to store data for multiple tenants (customers, teams, workloads) in shared S3 infrastructure for cost efficiency and operational simplicity. However, S3 doesn't provide native directory permissions—access is governed entirely by policy evaluation on object key strings.
+Organizations need to store data for multiple tenants (customers, teams, workloads) in shared S3 infrastructure for cost efficiency and operational simplicity. However, S3 doesn't provide native directory permissions access is governed entirely by policy evaluation on object key strings.
 
 **Key Challenges:**
 - Preventing tenants from accessing or listing other tenants' data
@@ -29,7 +29,7 @@ Organizations need to store data for multiple tenants (customers, teams, workloa
 
 ### 1. Prefix-Based Isolation
 
-S3 object keys are flat strings—"folders" are prefix conventions. Tenant boundaries are enforced by restricting which key prefixes an IAM principal may access.
+S3 object keys are flat strings "folders" are prefix conventions. Tenant boundaries are enforced by restricting which key prefixes an IAM principal may access.
 
 ```
 s3://datalake-bucket/
