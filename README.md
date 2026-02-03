@@ -145,7 +145,7 @@ This design explicitly defends against:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/secure-s3-datalake
+git clone https://github.com/Jabu-Meki/secure-s3-datalake
 cd secure-s3-datalake
 
 # Review and customize configuration
@@ -197,7 +197,7 @@ This project is built incrementally. Each stage introduces additional controls a
 
 ## Contributing
 
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines(coming soon).
 
 ---
 
